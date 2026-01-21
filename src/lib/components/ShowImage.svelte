@@ -1,5 +1,5 @@
 <!-- Sección Showcase: Imagen Destacada -->
-<section class="showcase-section">
+<section class="showcase-section mb-0 pb-0">
   
   <!-- Marco Neumórfico Rehundido -->
   <div class="showcase-frame">
