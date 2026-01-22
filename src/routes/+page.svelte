@@ -32,7 +32,13 @@
   
     <div class="section has-text-centered pt-0 mt-0">
       <div class="container">
-        <button class="button is-size-3-desktop is-size-4-mobile is-rounded"><h1>Login/Registro</h1></button>
+        <button class="button is-size-3-desktop is-size-4-mobile is-rounded">
+          <h1>
+            <a href="/log" class="has-text-white">
+              Iniciar
+            </a>
+          </h1>
+        </button>
       </div>
     </div>
 
