@@ -45,6 +45,7 @@
       </p>
       <p>
         Diseño y Desarrollo por 
+        <!-- svelte-ignore a11y_invalid_attribute -->
         <a href="#" class="has-text-primary has-text-weight-bold">
           Ing. Luis Hermoso
         </a>

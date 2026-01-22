@@ -46,15 +46,6 @@
     </div>
 
   </div>
-  <div class="column is-full">
-    <div class="box">ter4</div>
-  </div>
-  <div class="column is-full">
-    <div class="box">ter5</div>
-  </div>
-  <div class="column is-full">
-    <div class="box">ter6</div>
-  </div>
 </div>
 
 

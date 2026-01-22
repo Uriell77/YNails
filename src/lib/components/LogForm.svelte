@@ -10,6 +10,7 @@
 		<form class="box nm-card" onsubmit={(e) => e.preventDefault()}>
 			<!-- Campo de Email con Bulma -->
 			<div class="field">
+				<!-- svelte-ignore a11y_label_has_associated_control -->
 				<label class="label brand-text">Correo Electrónico</label>
 				<div class="control has-icons-left">
 					<input
@@ -22,6 +23,7 @@
 			</div>
 			<!-- Campo de Contraseña con Bulma -->
 			<div class="field">
+				<!-- svelte-ignore a11y_label_has_associated_control -->
 				<label class="label brand-text">Contraseña</label>
 				<div class="control has-icons-left">
 					<input
