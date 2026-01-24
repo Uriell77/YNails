@@ -6,7 +6,7 @@
 </script>
 
 <!-- Enlace a Bulma (Puedes ponerlo en tu app.html o importarlo) -->
-<div class="section">
+<div class="section pb-0 pt-2">
 	<div class="container is-max-desktop">
 		<form class="box nm-card" onsubmit={(e) => e.preventDefault()}>
 

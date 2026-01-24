@@ -5,7 +5,7 @@
 
 <!-- Enlace a Bulma (Puedes ponerlo en tu app.html o importarlo) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css" />
-<div class="section">
+<div class="section pb-0 pt-2">
 	<div class="container is-max-desktop">
 		<form class="box nm-card" onsubmit={(e) => e.preventDefault()}>
 			<!-- Campo de Email con Bulma -->
