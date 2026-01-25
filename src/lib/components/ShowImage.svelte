@@ -38,6 +38,12 @@
     <!-- Contenedor de la Imagen -->
     <div class="image-wrapper"   >
       {#key index}
+      {#await index}
+      
+        Cargando...
+        
+      {:then index} 
+        
       <img 
         src="{images[index]}" 
         alt="Trabajo reciente de manicura" 
@@ -45,6 +51,7 @@
         loading="lazy"
         in:blur={{ amount: 10, duration: 800 }}
       />
+      {/await}
       {/key}
       
       <!-- Overlay sutil opcional para mejorar el contraste -->
