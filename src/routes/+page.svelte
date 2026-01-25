@@ -24,7 +24,7 @@
 
   </div>
 
-  <div class="column is-full-mobile is-half-tablet is-one-third-desktop pt-0-desktop">
+  <div class="column is-full-mobile is-half-tablet is-one-third-desktop p-0-desktop p-0-mobile">
 
 
     {#await data}

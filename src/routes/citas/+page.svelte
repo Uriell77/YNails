@@ -58,7 +58,7 @@
 				<h2 class="subtitle is-6 brand-color mb-0 font-bold">Enero 2026</h2>
 				<div class="buttons are-small">
 					<!-- svelte-ignore a11y_consider_explicit_label -->
-		<button class="nm-btn-circle" onclick={() => window.history.back()}>
+		<button class="nm-btn-circle" >
 			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
 				<path d="M15 18l-6-6 6-6" />
 			</svg>

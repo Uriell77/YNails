@@ -79,7 +79,7 @@
   .showcase-frame {
     background: #e0e5ec;
     border-radius: 35px;
-    padding: 6px; /* Espacio del marco alrededor de la foto */
+    padding: 3px; /* Espacio del marco alrededor de la foto */
     /* Sombra interior para efecto de profundidad táctil */
     box-shadow: inset 8px 8px 16px #bebebe, 
                 inset -8px -8px 16px #ffffff;
