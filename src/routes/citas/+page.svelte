@@ -18,7 +18,7 @@
 
 
 <!-- Enlace a Bulma (Usualmente en app.html) -->
-<div class="main-layout">
+<div class="main-layout mt-5">
 	<!-- Navbar Superior (Bulma Level) -->
 	<header class="top-nav mb-5">
 		<button class="nm-btn-circle" onclick={() => window.history.back()}>
