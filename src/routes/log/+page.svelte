@@ -39,6 +39,10 @@
   </div>
   <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
 
+    <div class="block is-hidden-touch has-text-centered mt-0 pt-0 description-text has-text-weight-bold texto">
+     Realzando la belleza y elegancia de tus manos con los mejores productos y técnicas de vanguardia. 
+    </div>
+
     <!-- svelte-ignore a11y_click_events_have_key_events -->
     <!-- svelte-ignore a11y_no_static_element_interactions -->
     <div class="h3 has-text-centered mt-0 pt-0 textchange has-text-black mb-6" onclick={changeflag} >
@@ -50,9 +54,6 @@
       {/if}
     </div>
 
-    <div class="block is-hidden-touch has-text-centered mt-0 pt-0 description-text has-text-weight-bold texto">
-     Realzando la belleza y elegancia de tus manos con los mejores productos y técnicas de vanguardia. 
-    </div>
 
   </div>
 </div>

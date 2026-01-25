@@ -11,7 +11,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<main class="main">
+<main class="main pt-0 mt-0">
 {@render children()}
 </main>
 <Footer />

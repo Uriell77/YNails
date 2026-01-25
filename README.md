@@ -1,22 +1,26 @@
-# sv
+# YNails
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Proyecto de sitio web para YNails, construido con SvelteKit y desplegado en Vercel.
 
-## Creating a project
+## Configuración de Variables de Entorno
 
-If you're seeing this, you've probably already done this step. Congrats!
+Este proyecto requiere variables de entorno para funcionar correctamente. Sigue estos pasos:
 
-```sh
-# create a new project
-npx sv create my-app
-```
+1. **Copia el archivo de ejemplo:**
+   ```sh
+   cp .env.example .env.local
+   ```
 
-To recreate this project with the same configuration:
+2. **Configura tu token de Vercel Blob:**
+   - Ve a tu [Dashboard de Vercel](https://vercel.com/dashboard/stores)
+   - Crea o selecciona tu Blob Storage
+   - Copia el token de lectura/escritura
+   - Pega el token en `.env.local`:
+     ```
+     YNails_READ_WRITE_TOKEN=tu_token_aqui
+     ```
 
-```sh
-# recreate this project
-npx sv create --template minimal --types ts --add prettier sveltekit-adapter="adapter:vercel" --install npm YNails
-```
+3. **Importante:** El archivo `.env.local` NO debe subirse a Git (ya está en `.gitignore`)
 
 ## Developing
 
