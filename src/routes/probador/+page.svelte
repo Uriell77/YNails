@@ -172,7 +172,7 @@
 
   /* 5. Acabado estético */
   /* 'multiply' o 'overlay' hacen que el color se mezcle con las sombras reales de la uña */
-  mix-blend-mode: darken; 
+  mix-blend-mode: multiply; 
   
   /* Suaviza el cambio de color al seleccionar uno nuevo */
   transition: background-color 0.3s ease-in-out;
