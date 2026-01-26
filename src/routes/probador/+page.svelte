@@ -32,7 +32,7 @@
 
 <div class="p-8">
 	<div class="columns is-centered is-multiline is-vcentered">
-		<div class="column is-full-mobile is-6-desktop is-half-tablet">
+		<div class="column is-full-mobile is-8-desktop is-half-tablet">
 			<div class="try-on-page">
 				<!-- Header Superior -->
 				<header class="level is-mobile px-5 pt-5 pb-2">
@@ -54,6 +54,11 @@
 
 
 				<main class="px-5">
+
+
+            <div class="columns is-centered is-vcentered is-gapless">
+              <div class="column is-full-mobile is-half-tablet is-half-desktop">
+
 					<!-- Contenedor de la Mano (Visualizador) -->
 					<div class="image-showcase nm-inset-frame mb-6">
 						<button
@@ -62,6 +67,7 @@
 						>
 							<span class="icon is-small"><i class="fas fa-moon"></i></span>
 						</button>
+            
 						<div class="hand-wrapper">
 							<img src="/hand-model.png" alt="Hand Model" class="hand-img " />
 							<!-- Capa de color de uñas (simulada con filtros o máscara) -->
@@ -76,6 +82,12 @@
 							</button>
 						</div>
 					</div>
+
+
+              </div>
+              <div class="column is-full-mobile is-half-tablet is-half-desktop">
+
+
 					<!-- Selector de Tono -->
 					<div class="has-text-centered mb-5">
 						<h2 class="title is-5 brand-color font-bold">Selecciona tu Tono</h2>
@@ -107,6 +119,12 @@
 							</div>
 						{/each}
 					</div>
+
+              </div>
+            </div>
+
+
+
 				</main>
 				<!-- Navegación Inferior -->
 				<nav class="bottom-nav nm-card-top">
@@ -154,7 +172,7 @@
 
   /* 5. Acabado estético */
   /* 'multiply' o 'overlay' hacen que el color se mezcle con las sombras reales de la uña */
-  mix-blend-mode: multiply; 
+  mix-blend-mode: darken; 
   
   /* Suaviza el cambio de color al seleccionar uno nuevo */
   transition: background-color 0.3s ease-in-out;

@@ -12,10 +12,13 @@
       <div class="column is-4">
         <h4 class="title is-5 has-text-white">Enlaces Rápidos</h4>
         <ul>
-          <li><a href="/" class="has-text-light hover-effect">Inicio</a></li>
+          <li><a href="/" class="has-text-light hover-effect">Landing Page</a></li>
           <li><a href="/servicios" class="has-text-light hover-effect">Servicios</a></li>
           <li><a href="/galeria" class="has-text-light hover-effect">Galería</a></li>
           <li><a href="/citas" class="has-text-light hover-effect">Reservar Cita</a></li>
+          <li><a href="/probador" class="has-text-light hover-effect">Probador</a></li>
+          <li><a href="/perfil" class="has-text-light hover-effect">Perfil</a></li>
+          <li><a href="/inicio" class="has-text-light hover-effect">Inicio</a></li>
         </ul>
       </div>
 
